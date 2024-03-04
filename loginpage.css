@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://expressstickers.com.au/wp-content/uploads/2015/10/background.png);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#form{
+    width: 400px;
+    margin: 80px auto 30px auto;
+    background-color:transparent;
+    padding: 30px;
+    /* opacity: 0.9; */
+    border-radius: 5px;
+    border: 0.5px solid black;
+    backdrop-filter: blur(10px);
+    /* margin-bottom: 80px; */
+
+
+}
+
+h1{
+    text-align: center;
+    /* align-items: center; */
+    color: rgb(14, 13, 13);
+    font-weight: 800;
+}
+/* #form .btn{  */
+    /* background-color: black; */
+    /* color: aliceblue;
+    border: 1px solid wheat;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+ }  */
+/* #form button:hover{
+    color: black;
+    background-color: antiquewhite;
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+/* }  */
+#form .sub {
+    text-align: center;
+    align-items: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.input-group input{
+    border-radius: 15px;
+    border: 1px solid rgb(60, 184, 237);
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    
+
+}
+.input-group input:focus{
+    outline: 0;
+}
+.error{
+    font-size: 16px;
+    color: red;
+    margin-top: 5px;
+}
+.input-group.success{
+    border-color: #0cc477;
+}
+.input-group.error{
+    border-color: red;
+}
